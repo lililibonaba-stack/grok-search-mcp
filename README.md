@@ -1,6 +1,6 @@
 # grok-search-mcp
 
-A minimal [MCP](https://modelcontextprotocol.io) server that exposes a single web-search tool, `search_by_grok`, backed by the `grok-4.5-search` model through an OpenAI-compatible chat completions endpoint.
+A minimal [MCP](https://modelcontextprotocol.io) server that exposes a single web-search tool, `search_by_grok`, powered by **Grok's formidable built-in search engine** — a capability that is not available through any public API. It performs real-time web search with source links, and can fetch and read the content of any URL it encounters, so answers are grounded in what pages actually say rather than in the model's memory alone.
 
 ## How it works
 
