@@ -17,6 +17,9 @@ The server reads your API key from the `CHEAPAPIS_API_KEY` environment variable.
 
 ## Configuration
 
+> [!IMPORTANT]
+> Clone or download this repository first, then replace the placeholder script path (`C:/path/to/grok-search-mcp/grok_search.py` on Windows, `/path/to/grok-search-mcp/grok_search.py` on macOS/Linux) in the configs below with the actual full path to `grok_search.py` on your machine.
+
 ### Kilo (`kilo.json` / `kilo.jsonc`)
 
 Add to the top-level object (global `~/.config/kilo/kilo.jsonc` or project `kilo.json`):
