@@ -27,7 +27,7 @@ def search_by_grok(query: str) -> str:
                 "model": "grok-4.5-search",
                 "messages": [{"role": "user", "content": query}],
             },
-            timeout=180,
+            timeout=880,
         )
         resp.raise_for_status()
         data = resp.json()
