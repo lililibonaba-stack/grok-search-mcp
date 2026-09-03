@@ -13,7 +13,7 @@ The server reads your API key from the `CHEAPAPIS_API_KEY` environment variable.
 ## Prerequisites
 
 - [uv](https://docs.astral.sh/uv/) installed and available on your PATH (`uv --version` to verify)
-- An API key for [cheapapis.net](https://cheapapis.net) (or any OpenAI-compatible endpoint that serves `grok-4.5-search`, if you edit `API_URL` in the script)
+- An API key for [cheapapis.net](https://cheapapis.net) (or any OpenAI-compatible endpoint that serves `grok-4.5-search`, if you edit `API_URL` in the script). For how to create one, see [get_apikey_tutorial.md](get_apikey_tutorial.md).
 
 ## Configuration
 
